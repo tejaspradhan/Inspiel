@@ -1,2 +1,2 @@
-# Inspiel-
+# Inspiel
 Website for company Inspiel 
