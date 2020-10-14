@@ -2,6 +2,10 @@ const loader = document.querySelector('.loader');
 const main = document.querySelector('.main');
 const swipe = document.querySelector('.tagline');
 const body= document.querySelector('body');
+
+
+
+
 function init() {
   setTimeout(() => {
     loader.style.opacity = 0;
