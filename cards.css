@@ -281,42 +281,6 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
   }
 }
 
-.navbar-container
-{
-  background: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url("bg_image.jpg");
-  background-size: cover;
-}
-
-.nav-item a
-{
-  font-size: 1.2rem !important;
-}
-
-.nav-item a:hover
-{
-  color: rgb(104, 185, 23) !important;
-}
-
-.navbar-light .navbar-brand
-{
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  font-weight: bold;
-  letter-spacing: 0.1rem;
-}
-
-.navbar-toggler
-{
-  color: antiquewhite;
-}
-
-.navbar-nav{
-  align-items: center;
-}
-.logo{
-  width: 200px;
-}
-
 
 * {
   box-sizing: border-box;
@@ -375,5 +339,42 @@ img {
   background: url(https://img.pngio.com/hd-background-shapes-png-shapes-design-background-png-shapes-background-png-1920_1100.png);
   background-repeat: no-repeat;
   width: 100vw;
+}
+
+/* NAVBAR */
+.navbar-container
+{
+  background: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url("bg_image.jpg");
+  background-size: cover;
+}
+
+.nav-item a
+{
+  font-size: 1.2rem !important;
+}
+
+.nav-item a:hover
+{
+  color: rgb(104, 185, 23) !important;
+}
+
+.navbar-light .navbar-brand
+{
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+
+.navbar-toggler
+{
+  color: antiquewhite;
+}
+
+.navbar-nav{
+  align-items: center;
+}
+.logo{
+  width: 200px;
 }
 
