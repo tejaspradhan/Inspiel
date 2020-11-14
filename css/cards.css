@@ -344,7 +344,7 @@ img {
 /* NAVBAR */
 .navbar-container
 {
-  background: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url("bg_image.jpg");
+  /* background: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url("bg_image.jpg"); */
   background-size: cover;
 }
 
