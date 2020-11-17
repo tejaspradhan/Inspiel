@@ -2048,7 +2048,7 @@
 
 .nav-item a:hover
 {
-  color: rgb(104, 185, 23) !important;
+  /* color: rgb(104, 185, 23) !important; */
 }
 
 .navbar-light .navbar-brand
