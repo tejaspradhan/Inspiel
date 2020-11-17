@@ -2033,3 +2033,48 @@
   #navbar .navbar {
     margin-bottom: 20px;
   }
+
+  /* NAVBAR */
+.navbar-container
+{
+  /* background: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url("bg_image.jpg"); */
+  background-size: cover;
+}
+
+.nav-item a
+{
+  font-size: 1.2rem !important;
+}
+
+.nav-item a:hover
+{
+  color: rgb(104, 185, 23) !important;
+}
+
+.navbar-light .navbar-brand
+{
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+
+.navbar-toggler
+{
+  color: antiquewhite;
+}
+
+.navbar-nav{
+  align-items: center;
+}
+.logo{
+  width: 200px;
+}
+
+.card-body {
+    background-color: var(--light);
+    border: none;
+}
+.card {
+    border-radius: 25px;
+}
