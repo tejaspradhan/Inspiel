@@ -1069,7 +1069,7 @@ ul li:before {
   color: hsla(var(--color-brand-primary-h), var(--color-brand-primary-s), var(--color-brand-primary-l), 0.65);
 }
 .c-services__item:hover {
-  background-color: var(--color-brand-accent);
+  background-color:  rgb(104, 185, 23);
 }
 @media (min-width: 40.625em) {
   .c-services__item:hover {
