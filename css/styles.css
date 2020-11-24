@@ -1057,7 +1057,7 @@ ul li:before {
   cursor: pointer;
   -webkit-transition: inherit;
   transition: inherit;
-  background-color:  rgb(104, 185, 23);
+  background-color: rgb(104, 185, 23);
   background-size: 20px 20px;
   background-repeat: no-repeat;
   background-position: center;
@@ -1095,3 +1095,22 @@ ul li:before {
 }
 
 /* New Our Services Ends */
+
+@media (max-width:991px) {
+  .hero-image {
+    width: 70vw;
+    margin-top: 20vh;
+  }
+  .tagline-animate {
+    margin-top: 15px;
+    margin-left: 50vw;
+  }
+  .blog-card {
+    height: auto;
+  }
+  .hero-buttons {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 10vw !important;
+  }
+}
