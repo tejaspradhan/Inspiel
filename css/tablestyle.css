@@ -1,7 +1,7 @@
 table { 
-	width: 750px; 
+	width: 1345px; 
 	border-collapse: collapse; 
-	margin:50px auto;
+	margin:1px auto;
 	}
 
 /* Zebra striping */
@@ -17,7 +17,7 @@ th {
 
 td, th { 
 	padding: 10px; 
-	border: 1px solid #ccc; 
+	border: none; 
 	text-align: left; 
 	font-size: 18px;
 	}

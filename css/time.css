@@ -18,10 +18,10 @@
   color: darkgreen;
   transition: 0.8s;
   overflow: hidden;
+  border-radius: 20px;
 }
 
 input[type=button]:hover {
   color: #fff;
   background: darkgreen;
-  border-radius: 10% 40% 10% 40%;
 }

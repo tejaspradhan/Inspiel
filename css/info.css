@@ -1,0 +1,45 @@
+.card{
+  height: 400px;
+  margin-bottom: 50px;
+  margin-left: 200px;
+  margin-top: 60px;
+}
+
+.card .card-title{
+  text-align: center;
+}
+
+.card .card-text1 {
+  padding-top: 20px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.card .card-text2{
+  padding-top: 20px;
+  text-align: center;
+}
+
+.card #bt2{
+  margin-top: 30px;
+}
+
+.card #bt3{
+  margin-top: 30px;
+}
+
+.card a{
+    margin-left: 37%;
+}
+
+.card .show-login-btn{
+    margin-left: 25%;
+}
+
+
+
+@media (max-width: 768px) {
+    .card{
+      margin-left: 25%;
+    }
+}

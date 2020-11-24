@@ -3,8 +3,6 @@
   padding: 0;
 }
 
-
-
 nav {
   text-align: right;
   background: none;
@@ -16,8 +14,8 @@ nav {
   width: 100%;
   z-index: 20;
   transition: 0.35s all ease;
-
 }
+
 nav ul {
   list-style: none;
   padding: 2rem;
@@ -42,13 +40,13 @@ nav ul li a {
   background: white;
   transition: 0.35s all ease;
   -webkit-box-shadow: 1px 3px 5px #d3d3d3;
-
-  
 }
+
 .scrolled ul {
   padding: 1rem 2rem;
   transition: 0.35s all ease;
 }
+
 .scrolled li {
   color: rgb(53, 150, 240);
   transition: 0.2s all ease-in-out;

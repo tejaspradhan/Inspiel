@@ -1,11 +1,14 @@
 body, html {
     height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+
 }
 
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(../images/bg6.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(../images/bg2.jpg);
   /* Set a specific height */
   height: 70%;
 
@@ -59,7 +62,7 @@ body, html {
 
 .navbar-container
 {
-  background:  linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url("../images/bg7.jpg");
+  background:  linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url("../images/bg3.jpg");
   background-size: cover;
 }
 

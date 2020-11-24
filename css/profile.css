@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  background: #fff;
+  color: #616161;
+}
+
+.cover {
+  height: 400px;
+  background-image: url("../assets/golf.jpg"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.small {
+  color: rgba(97, 97, 97, 0.8);
+}
+
+.card {
+  border: none;
+  border-top: 5px solid lightgray;
+  border-radius: 0;
+  margin-bottom: 30px;
+  box-shadow: 5px 10px 18px #888888;
+}
+.card .card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+}
+.card .row {
+  width: 100%;
+}
+
+.A{
+
+  padding-top: 80px;
+  padding-left: 175px;
+  padding-bottom: 50px;
+}
+
+a.action {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 500;
+  color: #03a9f4;
+}
+a.action:hover {
+  color: #0288d1;
+}
+
+
+.tran
+{
+
+  background-size: cover;
+  width: 100%;
+
+  transition: opacity 0.7s ease-in ;
+}
+
+.nav-item a
+{
+  font-size: 1.2rem !important;
+}
+
+.nav-item a:hover 
+{
+  color: rgb(104, 185, 23) !important;
+}
+  
+.navbar-light .navbar-brand 
+{
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+
+.navbar-toggler
+{
+  color: antiquewhite;
+}
+
+.navbar-nav{
+  align-items: center;
+}
+.logo{
+  width: 200px;
+}
+
+.navbar-container
+{ 
+  background:  linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url("../assets/golf1.jpg");
+  background-size: cover;
+}
+
+
+.pattern:before
+{
+    background: linear-gradient(0deg, rgba(10, 100, 10, 0.1), rgba(10, 100, 10, 0.1)), url('../images/pattern.jpg');
+    background-attachment: fixed;
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 400px;
+    width: 100%;
+    height: 70%;
+    z-index: 1;
+    opacity: 0.1;
+    background-position: center top;
+    background-size: cover;
+}
+
+
+
+#left {
+  margin-top: -150px;
+  flex: 0 0 300px;
+}
+
+#user .fa {
+  font-size: 20px;
+}
+#user #userImage {
+  background: #4caf50;
+  height: 200px;
+}
+#user #renew {
+  display: block;
+  width: 100%;
+}
+#user .row {
+  width: auto;
+}
+
+#connections .list {
+  margin: 15px 30px;
+}
+#connections .list .list-item {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  background: #4caf50;
+  color: #fff;
+  cursor: pointer;
+}
+#connections .list .list-item:hover {
+  background: #3d8b40;
+}
+
+#upcomingEvents .view {
+  flex: 0 0 60px;
+}
+
+#goals .row .details {
+  flex: 0 0 60px;
+}
+
+
+
+
+@media (max-width: 768px) {
+  .navbar-nav.actions {
+    position: absolute;
+    right: 70px;
+  }
+}
+
+@media (max-width: 411px) {
+  .pattern:before {
+    height: 203%;
+
+  }
+}
+
+@media (max-width: 768px) {
+  .cover {
+    z-index: 999999;
+
+  }
+}
+
+@media (max-width: 768px) {
+  .A {
+    padding-left: 0px;
+  }
+}
+
+
+.section-aboutus, .section-features
+{
+  background-color: #f1f1e8;
+  z-index: 9999999;
+ 
+  
+}
+
+.T 
+{
+  padding-top: 30px;
+}
+
+h1 
+{
+  color: rgb(104, 185, 23) !important;
+  text-shadow: 0.2rem 0.2rem 0.2rem #092532;
+  font-size: 4rem !important;
+}
+
