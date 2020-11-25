@@ -1099,10 +1099,12 @@ ul li:before {
   .hero-image {
     width: 70vw;
     margin-top: 20vh;
+    margin-left: 20px;
   }
   .tagline-animate {
     margin-top: 15px;
-    margin-left: 50vw;
+    /* margin-left: 0; */
+
   }
   .blog-card {
     height: auto;
@@ -1113,3 +1115,4 @@ ul li:before {
     margin-left: 10vw !important;
   }
 }
+
