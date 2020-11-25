@@ -41,7 +41,7 @@
   *::after {
     box-sizing: border-box;
   }
-  
+
   html {
     font-family: sans-serif;
     line-height: 1.15;
@@ -72,7 +72,7 @@
     margin: 0;
     text-align: left;
     color: #525f7f;
-    background-color: #f8f9fe;
+    background-color: #f8f9fe; 
   }
   
   [tabindex='-1']:focus {
@@ -2080,3 +2080,4 @@
     border: none !important;
     box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.44) !important;
 }
+
