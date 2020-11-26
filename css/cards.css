@@ -273,18 +273,6 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
    transition-delay: 0.15s;
 }
 
-
-@media (max-width: 1000px) {
-  .wrap {
-   flex-direction: column;
-    width:400px;
-  }
-  .tile {
-    margin-left: 5vw;
-  }
-}
-
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -381,3 +369,17 @@ img {
   width: 200px;
 }
 
+@media (max-width: 1000px) {
+  .wrap {
+   flex-direction: column;
+    width:400px;
+  }
+  .tile {
+    margin-left: 5vw;
+    height: 50vw;
+  }
+  .fullPage {
+      background-image: none;
+  }
+  
+}
