@@ -108,8 +108,9 @@ main h1 {
 .card {
   border-radius: 1rem;
   padding: 1.5rem;
-  background-color: rgb(104, 185, 23);
-  border: 1px solid rgb(104, 185, 23);
+  /* background-color: rgb(104, 185, 23); */
+  background-color: #76ee00;
+  /* border: 1px solid rgb(104, 185, 23); */
   width: 60%;
   margin-left: 20%;
 }
@@ -156,4 +157,8 @@ dl {
   .card > time {
     width: 60%;
   }
+}
+
+.logo {
+  width: 200px;
 }
