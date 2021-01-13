@@ -14,26 +14,10 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
 
-    <link rel="stylesheet" href="css/MyBookings.css" />
-    <!-- <link rel="stylesheet" href="css/navstyle.css" /> -->
-
+    <link rel="stylesheet" href="./css/MyBookings.css" />
     <title>My Bookings</title>
   </head>
   <body>
-    <!-- <header>
-      <div class="row">
-        <h1>My bookings</h1>
-      </div>
-      <nav>
-        <ul class="row">
-          <li><a href="#">Book a space</a></li>
-          <li><a href="#">My bookings</a></li>
-          <li><a href="#">Contact us</a></li>
-          <li><a href="#">Sign out</a></li>
-        </ul>
-      </nav>
-    </header> -->
-    <!-- Bootstrap include links -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -53,7 +37,7 @@
     <nav class="navbar navbar-expand-lg navbar-light navbar-trans top">
       <div class="container">
         <a class="navbar-brand" href="#"
-          ><img class="logo" src="css/logo.png"
+          ><img class="logo" src="./css/logo.png"
         /></a>
         <button
           class="navbar-toggler"
@@ -84,112 +68,39 @@
             <li class="nav-item">
               <a class="nav-link" href="index.html">Log Out</a>
             </li>
-            <!-- <li class="nav-item">
-                      <a class="nav-link" href="profile.html">Profile Demo</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="cards.html">Cards Demo</a>
-                    </li> -->
           </ul>
         </div>
       </div>
     </nav>
-
-    <div class="page">
+      <div class="page">
       <main class="stack">
         <h1>My bookings</h1>
+        <br><br>
+        <h2>Upcoming</h2>
         <ul class="stack">
-          <li class="card">
-            <time datetime="2020-10-20">2020-10-20</time>
-            <dl>
-              <div>
-                <dt>Location</dt>
-                <dd>Soho</dd>
-              </div>
-              <div>
-                <dt>Space</dt>
-                <dd>Space 4</dd>
-              </div>
-              <div>
-                <dt>Reservation ID</dt>
-                <dd>6KDJ2wDzFjFgKMUSI4mE</dd>
-              </div>
-            </dl>
-          </li>
-          <li class="card">
-            <time datetime="2020-10-20">2020-10-20</time>
-            <dl>
-              <div>
-                <dt>Location</dt>
-                <dd>Soho</dd>
-              </div>
-              <div>
-                <dt>Space</dt>
-                <dd>Space 4</dd>
-              </div>
-              <div>
-                <dt>Reservation ID</dt>
-                <dd>6KDJ2wDzFjFgKMUSI4mE</dd>
-              </div>
-            </dl>
-          </li>
-          <li class="card">
-            <time datetime="2020-10-20">2020-10-20</time>
-            <dl>
-              <div>
-                <dt>Location</dt>
-                <dd>Soho</dd>
-              </div>
-              <div>
-                <dt>Space</dt>
-                <dd>Space 4</dd>
-              </div>
-              <div>
-                <dt>Reservation ID</dt>
-                <dd>6KDJ2wDzFjFgKMUSI4mE</dd>
-              </div>
-            </dl>
-          </li>
-          <li class="card">
-            <time datetime="2020-10-20">2020-10-20</time>
-            <dl>
-              <div>
-                <dt>Location</dt>
-                <dd>Soho</dd>
-              </div>
-              <div>
-                <dt>Space</dt>
-                <dd>Space 4</dd>
-              </div>
-              <div>
-                <dt>Reservation ID</dt>
-                <dd>6KDJ2wDzFjFgKMUSI4mE</dd>
-              </div>
-            </dl>
-          </li>
-          <li class="card">
-            <time datetime="2020-10-20">2020-10-20</time>
-            <dl>
-              <div>
-                <dt>Location</dt>
-                <dd>Soho</dd>
-              </div>
-              <div>
-                <dt>Space</dt>
-                <dd>Space 4</dd>
-              </div>
-              <div>
-                <dt>Reservation ID</dt>
-                <dd>6KDJ2wDzFjFgKMUSI4mE</dd>
-              </div>
-            </dl>
-          </li>
+          <li class="card upcoming">
+            <time datetime="2020-10-20">2021-01-20</time>
+            <div class="row">
+              <div class="col-lg-4"><b style="color:darkgray;">Location</b><br>PYC</div>
+              <div class="col-lg-3"><b style="color:darkgray;">Slot<br></b>17:00 - 18:00</div>
+              <div class="col-lg-4"><b style="color:darkgray;">Cost<br></b> Rs. 500</div>
+            </div><br>
+            <div class="id"><b style="color:darkgray;">Reservation ID: </b><b>87435t8jasvjwhfvjsf/b></div>
+        </li>
         </ul>
-      </main>
-      <!-- <div class="page-bg"></div> -->
-    </div>
 
-    <script src="main.js"></script>
-    <script src="script.js"></script>
+        <br><br>
+        <h2>Previous</h2>
+        <ul class="stack">
+          <li class="card past">
+            <time datetime="2020-10-20">2021-01-12</time>
+            <div class="row">
+              <div class="col-lg-4"><b style="color:darkgray;">Location</b><br>PYC</div>
+              <div class="col-lg-3"><b style="color:darkgray;">Slot<br></b>17:00 - 18:00</div>
+              <div class="col-lg-4"><b style="color:darkgray;">Cost<br></b> Rs. 300</div>
+            </div><br>
+            <div class="id"><b style="color:darkgray;">Reservation ID: </b><b>jhdgjk3778328</b></div>
+        </li>
+        </ul>
   </body>
 </html>

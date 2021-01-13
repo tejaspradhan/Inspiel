@@ -1,0 +1,104 @@
+#container {
+    height: 300px;
+    width: 70%;
+    
+  }
+  
+  table {
+    width: 100%;
+    color: black;
+    font-family: Consolas;
+    border-spacing: 0;
+    display: block;
+    margin-left: 20%;
+    -moz-box-shadow:0 0 5px 5px #888;
+    -webkit-box-shadow:0 0 5px 5px #888;
+    box-shadow:0 0 5px 5px #888;
+  }
+  
+  table,
+  th,
+  td {
+    border: 1px solid black;
+    box-sizing: border-box;
+  }
+  
+  td {
+    width: 2%;
+    background-color: #fff;
+  }
+  
+  .fth {
+    width: 1.8%;
+    background-color: rgb(104, 185, 23);
+  }
+  
+  .sth {
+    width: 1%;
+    background-color: rgb(104, 185, 23);
+  }
+  
+  .tth {
+    width: 2.2%;
+    background-color: rgb(104, 185, 23);
+  }
+  
+  .foth {
+    width: 2%;
+    background-color: rgb(104, 185, 23);
+  }
+  
+
+  
+  table thead {
+   
+    width: 100%;
+  }
+  
+  table tbody {
+    display: inline-block;
+    width: 100%;
+    overflow-y: auto;
+    text-align: center;
+    height: 250px;
+  }
+
+  	
+  @media only screen and  (min-width: 200px) {
+    .fth {
+        width: 1.9%;
+      }
+      
+      .sth {
+        width: 2.5%;
+      }
+      
+      .tth {
+        width: 2.3%;
+      }
+      
+      .foth {
+        width: 0.8%;
+      }
+      
+    
+}
+@media only screen and (min-width: 768px) {
+    .fth {
+        width: 2%;
+      }
+      
+      .sth {
+        width: 2%;
+      }
+      
+      .tth {
+        width: 2%;
+      }
+      
+      .foth {
+        width: 2%;
+      }
+      
+    
+}
