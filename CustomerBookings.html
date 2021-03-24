@@ -74,41 +74,43 @@
     </nav>
       <div class="page">
       <main class="stack">
-        <% if (past.length === 0 && upcoming.length === 0) { %>
-      <h2 style="height: 60vh; margin-top: 30vh;">No Bookings yet!</h2>
-    <%} else { %>
         <h1>My bookings</h1>
         <br><br>
         <h2>Upcoming</h2>
         <ul class="stack">
-          <% for (var booking of upcoming) { %>
           <li class="card upcoming">
-            <time datetime="2020-10-20"><%= booking.date.toUTCString().slice(0, 16) %></time>
+            <time datetime="2020-10-20">15/04/2021</time>
             <div class="row">
-              <div class="col-lg-4"><b style="color:darkgray;">Location</b><br><%= booking.courtName %></div>
-              <div class="col-lg-3"><b style="color:darkgray;">Slot<br></b><%= booking.slot %></div>
-              <div class="col-lg-4"><b style="color:darkgray;">Cost<br></b> Rs. <%= booking.cost %></div>
+              <div class="col-lg-4"><b style="color:darkgray;">Location</b><br>PYC</div>
+              <div class="col-lg-3"><b style="color:darkgray;">Slot<br></b>18:00 - 19:00</div>
+              <div class="col-lg-4"><b style="color:darkgray;">Cost<br></b> Rs. 300</div>
             </div><br>
-            <div class="id"><b style="color:darkgray;">Reservation ID: </b><b><%= booking._id %></b></div>
+            <div class="id"><b style="color:darkgray;">Reservation ID: </b><b>kjfdbggld34r34_324</b></div>
         </li>
-        <% } %>
+        <li class="card upcoming">
+            <time datetime="2020-10-20">10/04/2021</time>
+            <div class="row">
+              <div class="col-lg-4"><b style="color:darkgray;">Location</b><br>PYC</div>
+              <div class="col-lg-3"><b style="color:darkgray;">Slot<br></b>18:00 - 19:00</div>
+              <div class="col-lg-4"><b style="color:darkgray;">Cost<br></b> Rs. 300</div>
+            </div><br>
+            <div class="id"><b style="color:darkgray;">Reservation ID: </b><b>zxfdbggld37r34_350</b></div>
+        </li>
         </ul>
 
         <br><br>
         <h2>Previous</h2>
         <ul class="stack">
-          <% for (var booking of past) { %>
           <li class="card past">
-            <time datetime="2020-10-20"><%= booking.date %></time>
+            <time datetime="2020-10-20">24/03/2021</time>
             <div class="row">
-              <div class="col-lg-4"><b style="color:darkgray;">Location</b><br><%= booking.courtName %></div>
-              <div class="col-lg-3"><b style="color:darkgray;">Slot<br></b><%= booking.slot.startTime.hours %>:<%= String(booking.slot.startTime.minutes).padStart(2, "0") %>&nbsp;-&nbsp;<%= booking.slot.endTime.hours %>:<%= String(booking.slot.endTime.minutes).padStart(2, "0") %></div>
-              <div class="col-lg-4"><b style="color:darkgray;">Cost<br></b> Rs. <%= booking.cost %></div>
+              <div class="col-lg-4"><b style="color:darkgray;">Location</b><br>Iserlohn</div>
+              <div class="col-lg-3"><b style="color:darkgray;">Slot<br></b>17:00 - 18:00</div>
+              <div class="col-lg-4"><b style="color:darkgray;">Cost<br></b> Rs. 500</div>
             </div><br>
-            <div class="id"><b style="color:darkgray;">Reservation ID: </b><b><%= booking._id %></b></div>
+            <div class="id"><b style="color:darkgray;">Reservation ID: </b><b>agfdbggld23r34_290</b></div>
         </li>
-        <% } %>
         </ul>
-        <% } %>
+
   </body>
 </html>
