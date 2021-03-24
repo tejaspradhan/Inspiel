@@ -86,10 +86,10 @@
 
     <div class="y-appointment-wrapper">
       <div class="appointment-notification"></div>
-        <form action="/slot" method="POST">
+        <form action="index.html" method="POST">
           <fieldset class="field-set-reset">
 <!-- Could go here  -->
-                <legend class="title" style="padding-top: 4%;">SELECT SLOT</legend>
+                <legend class="title" style="padding-top: 4%;">Select Slot</legend>
                   <div class="time-pick" data-ts-selected-id=-1>
                    <section>
 
@@ -99,9 +99,9 @@
                                     <!-- <% for (var slot of morning) {%> -->
                                     <div class="slot">
                                       <!-- <% if (booked.includes(slot)) {%> -->
-                                        <label class="time-slice disable" for="" option-id="0" >
+                                        <label class="time-slice " for="" option-id="0" >
 
-                                            <input type="checkbox" disabled class="disable" value="<%= slot %>" name="slots"
+                                            <input type="checkbox"  checked class="" value="<%= slot %>" name="slots"
                                             id = "8:00 - 9:00">
                                             <!-- <%} else { %> -->
                                               <label class="time-slice" for="<%= slot %>" option-id="0" >
@@ -123,7 +123,7 @@
                                     <!-- <% for (var slot of afternoon) {%> -->
                                     <div class="slot">
                                       <!-- <% if (booked.includes(slot)) {%> -->
-                                        <label class="time-slice disable" for="" option-id="2" >
+                                        <label class="time-slice " for="" option-id="2" >
                                             <input
                                             class="time-slice"
                                             type="checkbox" disabled value="<%= slot %>" id="12:00 - 13:00" name="slots">
@@ -182,7 +182,7 @@
     </body>
 </html>
 <!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script><script  src="/js/Slot.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script><script  src="./js/Slot.js"></script>
   <script src="/js/Slot1.js"></script>
 
   <script>
