@@ -19,7 +19,7 @@
 
 
     <!-- Bootstrap core CSS -->
-<link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href=css/bootstrap.min.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="css/Slot.css" type="text/css">
 
     <style>
@@ -95,7 +95,7 @@
             <li class="nav-item">
               <a class="nav-link nl" href="/owner/profile">Profile</a>
             </li>
-            
+
             <!-- <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
             </li> -->
@@ -111,8 +111,7 @@
  <legend class="title" style="padding: 2%; font-size:10vh ">SELECT DATE</legend>
  <div style="font-size: 2.5vh; text-transform: uppercase;" >
 PYC - CRICKET</div>
-  <form action="/customer/court/<%= court.name %>/<%= court.sport %>" method="POST">
-    <input type="text" name="name" placeholder="Name" style="padding:0.25%; margin: 3%; margin-bottom: 7%; border: 2px solid #000; padding-left:3px; border-radius: 3px;"></input>
+  <form action="CustomerSelectSlot.html" method="POST">
               <div class="date-pick"  data-selected-id=-1>
                 <div class="scroll-btn left">
                   <span class="scroll-img-wrap">
@@ -123,41 +122,83 @@ PYC - CRICKET</div>
                 </div>
                 <div class="date-wrapper">
                   <div class="date-scroll-container">
-                    <% var future = new Date(); %>
-                    <% futureNew= future.toLocaleDateString() %>
-
-
                     <label option-id="<%= i %>" class="timecell">
             <span class="date-item">
-                <input type="radio" name="date" value="<%= futureNew %>" style="z-index: 1000" checked id= <%= future %> >
+                <input type="radio" name="date" value="<%= futureNew %>" style="z-index: 1000" checked id= <%= future %>
                 <span class="fill-box"></span>
-                <span class="time-day">Thu</span>
-                <span class="time-date">25</span>
-                <span class="time-month">Mar</span>
-                <span class="time-available">Slots available</span>
+                <span class="time-day">Wednesday</span>
+                <span class="time-date">24</span>
+                <span class="time-month">March</span>
+                <span class="time-available">4 slots available</span>
             </span>
-            
             </label>
 
 
-                    <% for (var i=0; i<=30; i++) {%>
-                    <% date = new Date(future.setDate(future.getDate() + 1)) %>
+
 
 
                                     <label option-id="<%= i %>" class="timecell">
             <span class="date-item">
-                <input type="radio" name="date" value="<%= date.toLocaleDateString() %>" style="z-index: 1000" checked id= <%= date %> >
+                <input type="radio" name="date" value="<%= date.toLocaleDateString() %>" style="z-index: 1000" checked id= <%= date %>
                 <span class="fill-box"></span>
-                <span class="time-day"><%= date.toString().slice(0, 3) %></span>
-                <span class="time-date"><%= date.getDate() %></span>
-                <span class="time-month"><%= date.toString().slice(4, 7) %></span>
-                <span class="time-available">Slots available</span>
+                <span class="time-day">Thursday</span>
+                <span class="time-date">25</span>
+                <span class="time-month">March</span>
+                <span class="time-available">3 slots available</span>
             </span>
         </label>
 
+<label option-id="<%= i %>" class="timecell">
+            <span class="date-item">
+                <input type="radio" name="date" value="<%= date.toLocaleDateString() %>" style="z-index: 1000" checked id= <%= date %>
+                <span class="fill-box"></span>
+                <span class="time-day">Friday</span>
+                <span class="time-date">26</span>
+                <span class="time-month">March</span>
+                <span class="time-available">2 slots available</span>
+            </span>
+        </label>
 
-                                    <%  console.log(date) %>
-                    <% } %>
+        <label option-id="<%= i %>" class="timecell">
+            <span class="date-item">
+                <input type="radio" name="date" value="<%= date.toLocaleDateString() %>" style="z-index: 1000" checked id= <%= date %>
+                <span class="fill-box"></span>
+                <span class="time-day">Saturday</span>
+                <span class="time-date">27</span>
+                <span class="time-month">March</span>
+                <span class="time-available">3 slots available</span>
+            </span>
+        </label>
+        <label option-id="<%= i %>" class="timecell">
+            <span class="date-item">
+                <input type="radio" name="date" value="<%= date.toLocaleDateString() %>" style="z-index: 1000" checked id= <%= date %>
+                <span class="fill-box"></span>
+                <span class="time-day">Sunday</span>
+                <span class="time-date">28</span>
+                <span class="time-month">March</span>
+                <span class="time-available">1 slot available</span>
+            </span>
+        </label>
+        <label option-id="<%= i %>" class="timecell">
+            <span class="date-item">
+                <input type="radio" name="date" value="<%= date.toLocaleDateString() %>" style="z-index: 1000" checked id= <%= date %>
+                <span class="fill-box"></span>
+                <span class="time-day">Monday</span>
+                <span class="time-date">29</span>
+                <span class="time-month">March</span>
+                <span class="time-available">6 slots available</span>
+            </span>
+        </label>
+        <label option-id="<%= i %>" class="timecell">
+            <span class="date-item">
+                <input type="radio" name="date" value="<%= date.toLocaleDateString() %>" style="z-index: 1000" checked id= <%= date %>
+                <span class="fill-box"></span>
+                <span class="time-day">Tuesday</span>
+                <span class="time-date">30</span>
+                <span class="time-month">March</span>
+                <span class="time-available">7 slots available</span>
+            </span>
+        </label>
                     </div>
                   </div>
                   <div class="scroll-btn right">
@@ -169,13 +210,14 @@ PYC - CRICKET</div>
                   </div>
                 </div>
                 <section class="btn-center"><button class="btn-1">Submit</button></section>
+
 </form>
 
 <div class="footer-copyright text-center py-2">© 2020 Copyright
         <a href="#" style="text-decoration: none; color: inherit">Inspiel</a>
         </div>
 
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script><script  src="/js/Slot.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script><script  src="./js/Slot.js"></script>
 
 
   </body>
