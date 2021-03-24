@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Inspiel | Customer SignUp</title>
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="HandheldFriendly" content="true" />
+    <!-- CSS Link -->
+    <link rel="stylesheet" type="text/css" href="css/CustomerSignup.css" />
+    <!-- Font Link -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <style type="text/css">
+
+    body{
+      text-align: center;
+    }
+
+    .home-redirect{
+      width: 250px;
+      top: 0%;
+      text-align: center;
+    }
+
+    .one{
+      /*background-color: red;*/
+      position: absolute;
+      top: 5%;
+      text-align: center;
+      cursor: pointer;
+      width: 350px;
+      height: auto;
+      margin: auto;
+      /*margin-left: 35%;*/
+    }
+
+    .icon-home { 
+
+      width: auto;
+    }
+
+/*
+    @media screen and (max-width: 600px) {
+      div.icon-home{
+        width: 200px;
+        float: left;
+        background-color: red;
+        text-align: center;
+      }
+    }*/
+
+
+  </style>
+  </head>
+
+
+  <body>
+
+    <section class="one" >
+      <a href="index.html"><img src="assets/logo.png" alt="error" class="home-redirect" ></a>
+    </section> <br>
+
+
+    <form method="POST" action="CustomerDashboard.html"><br>
+      <div class="form">
+        <div class="tab-header">
+          <div class="active" style="font-size: 25px">Sign Up</div>
+        </div>
+        <div class="tab-content">
+          <div class="tab-body active">
+            <div class="form-element">
+              <input type="text" placeholder="First Name" name="firstName" required=""/>
+            </div>
+            <div class="form-element">
+              <input type="text" placeholder="Last Name" name="lastName" required=""/>
+            </div>
+            <div class="form-element">
+              <input type="email" placeholder="Email" required=""/>
+            </div>
+            <div class="form-element">
+              <input type="text" placeholder="Username" name="username" required=""/>
+            </div>
+            <div class="form-element">
+              <input type="password" placeholder="Password" name="password" required=""/>
+            </div>
+            <div class="form-element">
+              <input
+                type="password"
+                placeholder="Confirm Password"
+                name="confirmPassword"
+                required=""
+              />
+            </div>
+            <div class="form-element">
+              <input
+                type="number"
+                placeholder="Contact Number"
+                name="contact"
+                required=""
+              />
+            </div>
+            <div class="form-element">
+              <input type="text" placeholder="Address" name="address" required=""/>
+            </div>
+            <div class="form-element">
+              <button>Sign Up</button>
+            </div>
+            <h5> Already a member? <a href="CustomerSignin.html">Sign in</a> </h5>
+          </div>
+        </div>
+      </div>
+    </form>
+    <!-- <h4><%= message %></h4> -->
+  </body>
+</html>

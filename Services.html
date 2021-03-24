@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inspiel | Our Services</title>
+
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+	<link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script src="https://use.fontawesome.com/66bb2835cf.js"></script>
+
+
+    <link rel="stylesheet" href="../css/cards.css" />
+
+	<style type="text/css">
+
+		h1 {
+
+			font-size: 10vh;
+			color: #fff;
+			text-align: center;
+  			font-family: Arial, Helvetica, sans-serif;
+  			margin-top: 5%;
+  			margin-bottom: 5%;
+  			font-weight: bolder;
+		}
+
+		h2 {
+
+			font-size: 6vh;
+			font-weight: bolder;
+			padding-top: 5%;
+			padding-bottom: 0%;
+		}
+
+		./*cards {
+
+			width: 80%;
+			background-color: red;
+			text-align: center;
+			margin: auto;
+			letter-spacing: 1px;
+		}*/
+
+		body {
+
+	      	background-color: rgb(104,185,23);
+			margin: 0%;
+			padding: 0%;
+	   	}
+
+	   * {
+	    	box-sizing: border-box;
+	    }
+
+	   .card {
+
+	    	color: #8000FF;
+  			font-family: Arial, Helvetica, sans-serif;
+  			letter-spacing: 1.5px;
+	    	background-color: #FAFAFA;
+	    	float: left;
+	    	width: calc(30% - 20px);
+	    	padding: 3%;
+	    	padding-top: 2%;
+	      	border-radius: 10px;
+	      	margin: 2%;
+	      	height: auto;
+	      	/*text-align: justify;*/
+	      	cursor: pointer;
+	      	background-color: 
+	      	border: 1px solid;
+			box-shadow:  1px 5px 20px 0px #222;
+			transition: 0.3s;
+			/*align-items: center;*/
+			border-radius: 30px;
+	   	}
+
+	   	.card:hover {
+
+	   		background-color: rgb(104,185,24);
+	   		color: #fff;
+  			transform: translate(0px, -5%); /* Standard syntax */
+	   	}
+
+	    .card p {
+
+	    	font-size: 2.5vh;
+	    	padding: 1%;
+	    	margin-top:5%;
+	    	line-height: 1.6;
+
+	   	}
+
+	   	.cardContainer { 
+
+	   		/*background-color: white;*/
+	   		/*width: 90%;*/
+	   		list-style: none;
+	   	 }
+
+	   .cardContainer:after {
+	      content: "";
+	      display: table;
+	      clear: both;
+	   }
+
+	   @media screen and (max-width: 600px) {
+	      .card {
+
+	         	width: 90%;
+	        	margin: 5%;
+	         	padding: 5%;
+	         	padding-left: 8%;
+	         	padding-right: 8%;
+	         	letter-spacing: 2px;
+	         	line-height: 1.2;
+	      	}
+
+	      	h1 {
+
+	      		margin-top: 10%;
+	      		margin-bottom: 10%;
+	      	}
+
+	      	body {
+
+	      		margin: 0%;
+	      	}
+	   }
+
+		/*Footer CSS*/
+
+		.darken-3{
+		  background-color: #fff;
+		}
+
+		.footer-copyright
+		{
+		  background-color: rgba(0,0,0,0.15);
+		}
+
+		.fa
+		{
+		  color: rgb(104, 185, 23);
+		}
+
+		.line
+		{
+		  width: 5rem;
+		  border: 1px solid green;
+		}
+
+		.hero-image {
+		  width: 40vw;
+		  margin-left: 100px;
+		  margin-top: 35vh;
+		}
+
+		.tagline-animate {
+		  -webkit-animation: fadeIn 7s; /* Safari 4+ */
+		  -moz-animation:    fadeIn 7s; /* Fx 5+ */
+		  -o-animation:      fadeIn 7s; /* Opera 12+ */
+		  animation:         fadeIn 7s; /* IE 10+, Fx 29+ */
+		  margin-left: 30vw;
+		}
+
+		.hero-buttons {
+		  margin-top: 35vh;
+		}
+
+		.icons {
+
+			text-align: center;
+			padding-bottom: 5%;
+		}
+
+	   
+
+	</style>
+</head>
+<body>
+
+	<section >
+		    <div class="container-fluid p-0 navbar-container">
+      <nav class="navbar navbar-expand-lg navbar-light navbar-trans top">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><img class="logo" src="css/logo.png" style="width: 200px;" 
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link nl" href="/customer/bookings">Our Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/customer/profile">About Us</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li> -->
+              <li class="nav-item">
+                <a class="nav-link" href="/">Login</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+	</section >
+
+	<section style="background-color: rgb(104,185,24); padding-bottom: 5%; padding-top: 1%;background-image: url('assets/download.svg'); background-repeat: none; background-attachment: fixed;">
+		<h1>OUR SERVICES</h1>
+		<div class="cardContainer">
+			<div class="card">
+				<h2>Search</h2><hr>
+				<p>Looking to get your daily dose of exercise with your favorite game or last minute plans for a match with friends, we are here to help you with just a click. Look for the nearest court available by just entering your location and let your only worry be who wins the match.</p>
+			</div>
+			<div class="card" >
+				<h2>Book</h2><hr>
+				<p>Found the perfect court available at the timing you like, make an online booking with the venue through us to avoid any hassle. We use secure payments methods to give you the easiest possible experience while booking.</p>
+			</div>
+			<div class="card">
+				<h2>Coaching</h2><hr>
+				<p>Want to learn a new sport or looking to brush up on your skills, find various coaches easily through us and book slots with them at the time and days most suitable to you.</p>
+			</div>
+		</div>
+	</section>
+
+	<div class="footer">
+          <footer class="page-footer font-small darken-3">
+
+          <div class="container">
+              <!-- Grid row-->
+              <div class="row text-center text-md-left">
+                <div class="col-md-3 pt-3">
+                  <img id = "footer-img" src="assets/inspiellogo.png">
+                </div>
+                <div class="col-md-3 pt-5">
+                  <a href="" style="text-decoration: none; color: inherit"><h6>Login</h6></a>
+                  <hr class="line mt-0 d-inline-block" >
+                </div>
+                <div class="col-md-3 pt-5">
+                  <a href="" style="text-decoration: none; color: inherit"><h6>Our Team</h6></a>
+                  <hr class="line mt-0 d-inline-block" >
+                </div>
+                <div class="col-md-3 pt-5">
+                  <a href="" style="text-decoration: none; color: inherit"><h6>Help</h6></a>
+                  <hr class="line mt-0 d-inline-block" >
+                </div>
+              </div>
+              <div class="row contact text-center text-md-left">
+                <div class="col-md-3 pl-3 pt-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase font-weight-bold">Reach Us At</h6><br>
+                    <p>
+                      <i class="fa fa-home mr-3"></i>1745/2, Sadashiv Peth, <br> &nbsp &nbsp &nbsp &nbsp Pune - 411030</p>
+                    <p>
+                      <i class="fa fa-envelope mr-3"></i>inspiel01@gmail.com</p>
+                    <p>
+                      <i class="fa fa-phone mr-3"></i>+91 74998 10224</p>
+                    <p>
+                      <i class="fa fa-telegram mr-3"></i>Inspiel Group</p>
+                </div>
+                <div class="col-md-3 pl-3 pt-4 text-center text-md-left">
+                    <!-- Links -->
+                    <h6 class="text-uppercase font-weight-bold">Partner With Us</h6><br>
+                    <p><i class="fa fa-handshake-o mr-3" aria-hidden="true"></i>Register Your Court Now</p>
+                    <a href="#!" class="btn btn-outline-dark" role="button">Sign up!</a>
+                </div>
+                <div class="col-md-6 pl-5">
+                  <img src="assets/ContactUs.png" class="img-responsive" width="100%">
+                </div>
+              </div>
+              <div class="row social-media">
+                <!-- Grid column -->
+                <div class="col-md-12 py-4">
+                  <div class="text-center">
+                    <!-- Facebook -->
+                    <a class="fb-ic">
+                      <i class="fa fa-facebook-f fa-lg mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <!-- Twitter -->
+                    <a class="tw-ic">
+                      <i class="fa fa-twitter fa-lg mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <!-- Google +-->
+                    <a class="gplus-ic">
+                      <i class="fa fa-google-plus fa-lg mr-md-5 mr-3 fa-2x" aria-hidden="true"></i>
+                    </a>
+                    <!--Linkedin -->
+                    <a class="li-ic">
+                      <i class="fa fa-linkedin fa-lg mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <!--Instagram-->
+                    <a class="ins-ic">
+                      <i class="fa fa-instagram fa-lg mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <!--Pinterest-->
+                    <a class="pin-ic">
+                      <i class="fa fa-pinterest fa-lg fa-2x"> </i>
+                    </a>
+                  </div>
+                </div>
+                <!-- Grid column -->
+              </div>
+            </div>
+            <!-- Footer Elements -->
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-2">© 2020 Copyright
+              <a href="#" style="text-decoration: none; color: inherit">Inspiel</a>
+            </div>
+            <!-- Copyright -->
+          </footer>
+        </div>
+
+</body>
+</html>
