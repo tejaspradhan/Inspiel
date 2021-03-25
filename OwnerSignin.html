@@ -19,66 +19,65 @@
   </head>
 
   <style type="text/css">
-
-    .home-redirect{
+    .home-redirect {
       width: 250px;
       top: 0%;
     }
 
-    .one{
+    .one {
       /*background-color: red;*/
       position: absolute;
       top: 5%;
       text-align: center;
       cursor: pointer;
     }
-
   </style>
 
   <body>
-
     <section class="one">
-      <a href="index.html"><img src="assets/logo.png" alt="error" class="home-redirect"></a>
+      <a href="index.html"
+        ><img src="assets/logo.png" alt="error" class="home-redirect"
+      /></a>
     </section>
     <section>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3"></div>
-        <div class="col-md-6 main">
-          <form class="form" action="OwnerDashboard.html" method="post">
-            <div class="tab-header">
-              <div class="active">Login Here</div>
-            </div>
-            <div class="tab-content">
-              <div class="tab-body active">
-                <div class="form-element">
-                  <input
-                    name="inputEmail"
-                    type="email"
-                    placeholder="Email"
-                    required
-                  />
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3"></div>
+          <div class="col-md-6 main">
+            <form class="form" action="OwnerDashboard.html" method="get">
+              <div class="tab-header">
+                <div class="active">Login Here</div>
+              </div>
+              <div class="tab-content">
+                <div class="tab-body active">
+                  <div class="form-element">
+                    <input
+                      name="inputEmail"
+                      type="email"
+                      placeholder="Email"
+                      required
+                    />
+                  </div>
 
-                <div class="form-element">
-                  <input
-                    name="inputPassword"
-                    type="password"
-                    placeholder="Password"
-                    required
-                  />
-                </div>
-                <h5><a href="OwnerSignup.html">Don't Have an Account</a></h5>
-                <div class="form-element">
-                  <button>Login</button>
+                  <div class="form-element">
+                    <input
+                      name="inputPassword"
+                      type="password"
+                      placeholder="Password"
+                      required
+                    />
+                  </div>
+                  <h5><a href="OwnerSignup.html">Don't Have an Account</a></h5>
+                  <div class="form-element">
+                    <button>Login</button>
+                  </div>
                 </div>
               </div>
-            </div>
-          </form>
+            </form>
+          </div>
+          <div class="col-md-3"></div>
         </div>
-        <div class="col-md-3"></div>
       </div>
-    </div>
-  </section>
+    </section>
   </body>
 </html>
